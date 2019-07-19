@@ -1,3 +1,7 @@
+.linkbutton {
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 500px) {
   .on-the-phone {
     display: flex;
@@ -290,6 +294,10 @@ nav .navigation a:hover {
   height: 45px;
   font-size: 2rem;
   border-radius: 10px;
+  color: white;
+}
+.home .walk .walk-text .btn a {
+  text-decoration: none;
   color: white;
 }
 .home .walk .walk-text .btn:hover {
