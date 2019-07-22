@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive layouts and responsive layouts both use media queries but the difference is that adaptive layouts use fixed layouts widths and responsive uses responsive units. 
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first and Desktop first really only describe in which direction the development of a site is started. mobile first starts designing in reference to mobile sizes and adds or takes away as the screen sizes increase to larger platforms like tablet then to desktop. this uses @media queries to increase appearnce and function at those different screen sizes. Making the page adaptive or responsive at all sizes.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The 62.5% covers the size of a readers screen and adjusts the content font size to make it easier for the fonts to be adjusted throught the code to make the page responsive to the zoom in and zoom out features a patron may need to view the design better.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is using a compiler to do the hard work of organizing out the code made in a LESS file which tends to allow more power to time when building design code. It does this by allowing variables to be passed intot he css from the compiler.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+using the mixins is still a love hate for me... the variables make sense but adding in the escape option still takes me a minute for my brain to connect. I can definitly appreciate that LESS does all the organizing into CSS allowing me to nest my code. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -1,1 +1,46 @@
-// Mixins Here
+// Mixins Here//
+
+.custom-button(@bgcolor: rgb(66, 68, 73),@width: 200px , @fontcolor: white){
+    display: block;
+    background-color: rgb(66, 68, 73);
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@fontcolor;
+    
+    &:hover{
+      background: rgb(20, 20, 20);
+    }
+}
+
+.linkbutton {
+    text-decoration: none;
+    color: white;
+}
+
+
+.on-the-phone{
+    @media @phone {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 99%;
+    padding: 15px;
+}
+}
+
+.beGone {
+    @media @phone {
+        display: none;
+    }
+}
+
+.imgStay {
+    @media @phone {
+        width: 90%;
+        Margin: 10 auto;
+
+    }
+}
